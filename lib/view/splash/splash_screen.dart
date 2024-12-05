@@ -28,6 +28,12 @@ class _SplashScreenState extends State<SplashScreen> {
             TextAnimator(
               "Solution Sphere",
               style: const TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+              incomingEffect: WidgetTransitionEffects.incomingSlideInFromLeft(),
+              atRestEffect: WidgetRestingEffects.bounce(),
+            ),
+            TextAnimator(
+              "Where Tech Minds Unite.",
+              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               atRestEffect: WidgetRestingEffects.slide(),
             )
           ],
