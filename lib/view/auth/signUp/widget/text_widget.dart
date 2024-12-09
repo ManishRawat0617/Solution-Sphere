@@ -8,7 +8,7 @@ class TopText extends StatelessWidget {
     return const Padding(
       padding: const EdgeInsets.only(top: 14),
       child: Text(
-        "SignUp",
+        "SignUp To The Solution Sphere",
         textAlign: TextAlign.left,
         style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
       ),

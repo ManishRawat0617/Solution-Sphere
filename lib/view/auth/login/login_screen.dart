@@ -68,8 +68,9 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                     InkWell(
                       onTap: () {
-                        Navigator.of(context)
-                            .pushNamed(RoutesName.signupScreen);
+                        print("no");
+                        Navigator.pushNamedAndRemoveUntil(
+                            context, RoutesName.signupScreen, (route) => false);
                       },
                       child: Text("Sign Up"),
                     )
