@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:solution_sphere/config/routes/routes_name.dart';
+import 'package:solution_sphere/view/Intro/Intro.dart';
 import 'package:solution_sphere/view/auth/login/login_screen.dart';
 import 'package:solution_sphere/view/auth/signUp/signup_screen.dart';
 import 'package:solution_sphere/view/home/home_screen.dart';
@@ -12,6 +13,8 @@ class Routes {
     switch (settings.name) {
       case RoutesName.splashScreen:
         return MaterialPageRoute(builder: (context) => const SplashScreen());
+      case RoutesName.introScreen:
+        return MaterialPageRoute(builder: (context) => const IntroScreen());
       case RoutesName.loginScreen:
         return MaterialPageRoute(builder: (context) => const LoginScreen());
       case RoutesName.signupScreen:
@@ -19,9 +22,9 @@ class Routes {
       case RoutesName.homeScreen:
         return MaterialPageRoute(builder: (context) => const HomeScreen());
       case RoutesName.profileScreen:
-        return MaterialPageRoute(builder: (context) =>const ProfileScreen());
+        return MaterialPageRoute(builder: (context) => const ProfileScreen());
       case RoutesName.settingsScreen:
-        return MaterialPageRoute(builder: (context) =>const SettingsScreen());
+        return MaterialPageRoute(builder: (context) => const SettingsScreen());
       default:
         return MaterialPageRoute(builder: (context) {
           return const Scaffold(

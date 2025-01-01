@@ -1,4 +1,5 @@
-class AppImages{
-
-  static const appMainImage = "assets/images/rb_576.png";
+class AppImages {
+  static const appMainImage = "assets/images/Main_Image.png";
+  static const aiRobotImage = "assets/images/robot.png";
+  static const connectingPeopleImage = "assets/images/connecting_people.png";
 }

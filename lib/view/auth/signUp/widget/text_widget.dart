@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:solution_sphere/config/constants/appColors.dart';
 
 class TopText extends StatelessWidget {
   const TopText({super.key});
@@ -10,7 +11,8 @@ class TopText extends StatelessWidget {
       child: Text(
         "SignUp To The Solution Sphere",
         textAlign: TextAlign.left,
-        style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+        style: TextStyle(
+            fontSize: 25, fontWeight: FontWeight.bold, color: Colors.black87),
       ),
     );
   }

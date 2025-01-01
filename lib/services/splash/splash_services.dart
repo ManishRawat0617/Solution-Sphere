@@ -8,6 +8,6 @@ class SplashServices {
     Timer(
         const Duration(seconds: 5),
         () => Navigator.pushNamedAndRemoveUntil(
-            context, RoutesName.loginScreen, (route) => false));
+            context, RoutesName.introScreen, (route) => false));
   }
 }

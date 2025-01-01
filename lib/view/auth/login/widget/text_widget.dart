@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:solution_sphere/config/constants/app_texts.dart';
 
 class TopText extends StatelessWidget {
   const TopText({super.key});
@@ -8,7 +9,7 @@ class TopText extends StatelessWidget {
     return const Padding(
       padding: const EdgeInsets.only(top: 14),
       child: Text(
-        "Solution Sphere",
+        AppTexts.appName,
         textAlign: TextAlign.left,
         style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
       ),

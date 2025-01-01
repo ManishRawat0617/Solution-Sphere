@@ -21,7 +21,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
     return Scaffold(
       backgroundColor: AppColors.bgColor,
       appBar: AppBar(
-        title: Center(
+        title:const Center(
             child: const TextWidget(
           title: "Profile",
           boldness: FontWeight.bold,

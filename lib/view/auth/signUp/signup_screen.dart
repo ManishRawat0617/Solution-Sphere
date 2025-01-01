@@ -26,7 +26,7 @@ class _SigUpScreenState extends State<SigUpScreen> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          // containing the login and email and button
+          // containing sign up form
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16),
             child: Container(
@@ -34,8 +34,8 @@ class _SigUpScreenState extends State<SigUpScreen> {
               decoration: BoxDecoration(boxShadow: const [
                 BoxShadow(
                     color: Colors.grey,
-                    spreadRadius: 4,
-                    offset: Offset(-2.5, 3),
+                    spreadRadius: 2,
+                    offset: Offset(-1, 1),
                     blurRadius: 3),
               ], color: Colors.white, borderRadius: BorderRadius.circular(15)),
               child: Padding(

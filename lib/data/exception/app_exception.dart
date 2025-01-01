@@ -12,17 +12,23 @@ class AppExceptions implements Exception {
 
 class NoInternetException extends AppExceptions {
   NoInternetException({String? message})
-      : super(message: message ?? "No Internet Connection");
+      : super(
+          message: message ?? "No Internet Connection",
+        );
 }
 
 class UnauthorisedException extends AppExceptions {
   UnauthorisedException({String? message})
-      : super(message: message ?? "Token is expired");
+      : super(
+          message: message ?? "Token is expired",
+        );
 }
 
 class RequestTimeOutException extends AppExceptions {
   RequestTimeOutException({String? message})
-      : super(message: message ?? "TImeOut connection");
+      : super(
+          message: message ?? "Time Out ",
+        );
 }
 
 class FetchDataException extends AppExceptions {

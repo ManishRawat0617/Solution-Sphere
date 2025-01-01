@@ -11,8 +11,8 @@ class PasswordInputField extends StatelessWidget {
         decoration: BoxDecoration(boxShadow: const [
           BoxShadow(
               color: Colors.grey,
-              spreadRadius: 2,
-              offset: Offset(-2.5, 3),
+          spreadRadius: 1,
+              offset: Offset(-1, 1),
               blurRadius: 3),
         ], borderRadius: BorderRadius.circular(20), color: Colors.white),
         child: TextFormField(
@@ -20,7 +20,8 @@ class PasswordInputField extends StatelessWidget {
               hintText: "ab231@#dj",
               label: const Text(
                 "Enter your Password",
-                style: TextStyle(fontWeight: FontWeight.bold),
+                style: TextStyle(fontWeight: FontWeight.bold,
+                color: Colors.grey),
               ),
               border: OutlineInputBorder(
                   borderSide: BorderSide(width: 20),

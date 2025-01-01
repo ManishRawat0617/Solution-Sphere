@@ -5,5 +5,5 @@ class RoutesName {
   static const String homeScreen = "home_screen";
   static const String profileScreen = "profile_screen";
   static const String settingsScreen = "settings_screen";
-  static const String Screen = "";
+  static const String introScreen = "intro_screen";
 }
